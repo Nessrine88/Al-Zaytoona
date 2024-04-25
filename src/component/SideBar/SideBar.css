@@ -1,0 +1,25 @@
+.sidebar{
+    width: 20rem;
+    background-image: linear-gradient(to bottom, #ff87b4, #ff87b4, #a0d3e6);
+    height: 100vh;
+    padding: auto;
+}
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+  }
+  
+ .nav-item  {
+    display: flex;
+    justify-content: right;
+    padding-right: 2rem;
+  }
+ @media screen and (max-width:767px) {
+  .sidebar-container{
+    display: none;
+  }
+ }

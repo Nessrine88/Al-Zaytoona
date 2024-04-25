@@ -1,0 +1,9 @@
+.center {
+    display: flex;
+    justify-content: center;
+    color: brown;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    font-size: 20px;
+}
