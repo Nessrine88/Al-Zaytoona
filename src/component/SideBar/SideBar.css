@@ -18,6 +18,11 @@
     justify-content: right;
     padding-right: 2rem;
   }
+  .nav-logo {
+    width: 200px;
+    height: auto;
+  }
+  
  @media screen and (max-width:767px) {
   .sidebar-container{
     display: none;
