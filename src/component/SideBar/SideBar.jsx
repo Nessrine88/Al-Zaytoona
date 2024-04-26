@@ -10,22 +10,22 @@ const SideBar = () => {
       <div className="sidebar" id="nav">
         <ul className="nav flex-column border-end border-1">
           <div className="col-md-6">
-            <NavLink to="/"><img src={logo} alt="" className="img-fluid nav-item" /></NavLink> 
+            <NavLink to="/Al-Zaytoona"><img src={logo} alt="" className="img-fluid nav-item" /></NavLink> 
           </div>
           <li className="nav-item">
-            <NavLink to="/fikah" className="nav-link" activeClassName="active" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem' }}>الفقه</NavLink>
+            <NavLink to="/Al-Zaytoona/fikah" className="nav-link" activeClassName="active" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem' }}>الفقه</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/oussoul-fikah" className="nav-link" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem' }}>أصول الفقه</NavLink>
+            <NavLink to="/Al-Zaytoona/oussoul-fikah" className="nav-link" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem' }}>أصول الفقه</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/akidah" className="nav-link" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem' }}>العقيدة</NavLink>
+            <NavLink to="/Al-Zaytoona/akidah" className="nav-link" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem' }}>العقيدة</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/mantak" className="nav-link" style={{ textDecoration: 'none', color: 'black' , fontSize: '2rem'}}>المنطق</NavLink>
+            <NavLink to="/Al-Zaytoona/mantak" className="nav-link" style={{ textDecoration: 'none', color: 'black' , fontSize: '2rem'}}>المنطق</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/taarib" className="nav-link" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem', paddingBottom: '11rem'}}>التعريب</NavLink>
+            <NavLink to="/Al-Zaytoona/taarib" className="nav-link" style={{ textDecoration: 'none', color: 'black', fontSize: '2rem', paddingBottom: '11rem'}}>التعريب</NavLink>
           </li>
         </ul>
       </div>

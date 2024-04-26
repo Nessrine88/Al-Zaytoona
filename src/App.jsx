@@ -18,14 +18,14 @@ function App() {
     <BrowserRouter>
       <div style={{zIndex:"999", position: "absolute"}}><SideBar /></div>
       <Routes>
-      <Route path='/' element={<Home />} />
-        <Route path='/fikah' element={<Fikah />} />
-        <Route path='/zakat' element={<Zakat />} />
-        <Route path='/akidah' element={<Akidah />} />
-        <Route path='/taarib' element={<Taarib />} />
-        <Route path='/oussoul-fikah' element={<OussoulFikah />} />
-        <Route path='/mantak' element={<Mantak />} />
-        <Route path='/natijah' element={<Natijah totalProgress={totalProgress} />} />
+      <Route path='/Al-Zaytoona' element={<Home />} />
+        <Route path='/Al-Zaytoona/fikah' element={<Fikah />} />
+        <Route path='/Al-Zaytoona/zakat' element={<Zakat />} />
+        <Route path='/Al-Zaytoona/akidah' element={<Akidah />} />
+        <Route path='/Al-Zaytoona/taarib' element={<Taarib />} />
+        <Route path='/Al-Zaytoona/oussoul-fikah' element={<OussoulFikah />} />
+        <Route path='/Al-Zaytoona/mantak' element={<Mantak />} />
+        <Route path='/Al-Zaytoona/natijah' element={<Natijah totalProgress={totalProgress} />} />
       </Routes>
     </BrowserRouter>
   );
